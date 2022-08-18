@@ -1,0 +1,19 @@
+{
+    "name": "demo/personweb-api",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Muhammad Yusuf Manshur",
+            "email": "ymanshur@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "firebase/php-jwt": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
